@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "bootstrap-icons": "1.13.1"
+  }
+}

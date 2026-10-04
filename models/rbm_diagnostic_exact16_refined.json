@@ -1,0 +1,61 @@
+{
+  "purpose": "exact-likelihood diagnostic, not full-catalogue model",
+  "training_ids": [
+    "ae258a5da2e75540d8351f4d6b758f9e7e9920a012c58e9af3ce3b0010be82e3",
+    "e0ce8c8fe2a59e112f97918bad4593260d714ab9ced33ed1389e8380b6141ab7",
+    "5b1f6df1ac4b636630fbbcbbdad7ec72679ce1575f54b79c31fb17510a9fa263",
+    "c938f76f81d6be0b13086a41d282a08ae4aa5ca8653c1daa681818abdcde4c9e",
+    "55084b6da8820e6649578665ee5d143b83481daf3e9cc807d1ec7429dbd49cbc",
+    "e1865c45a1e152bbaf6366f953481026c4a31b42f0f759710471e8dff2aef4e8",
+    "3ce4a684190c8cdc4d92f72c3d9c72275e1e8640e894e2cef3aedc404e57be3a",
+    "ebbf9b6024861fe467f14c041435d1f3f006ca85e9939590c110f0a5ba7bd1c8",
+    "939bf5db4fd59ecc56127644478c61cf9c556d9ab9e131e53122353836b2e0f1",
+    "4bc409783699dcc4a3867512fdeb7fc7a7497b6b8ea8368a118f8996ba9d183d",
+    "d5414572f7c07460ea36ac403eb1fbdc6e071fa7489e4fcdb973332beaa02925",
+    "d5f5d8c95c9f697e5cca08e743d40e5b8c8dbd4796edb6d76a2116086075c39c",
+    "8e6c2592aa1e234d20ac01c025d64dfb6587023f5609407450a4b5c50e108e7f",
+    "17c5203722ed547ba1d6d1ff669008d4f0b3cb40e7fa0c89fcaafb481df6e233",
+    "ec7ace087aadedb424cd7644bb6812a7a5d709f4899cf985536e8730999e89bb",
+    "3d8381d7eee8db6d3cf4f7537ea6dda5ea6307aa4e2f9187e3a081b6fdccb318"
+  ],
+  "active_hidden_units": 16,
+  "stored_hidden_units": 128,
+  "seed": 95,
+  "updates": 3000,
+  "optimizer": "Adam",
+  "parent_model": "rbm_diagnostic_exact16.npz",
+  "parent_updates": 3000,
+  "total_updates": 6000,
+  "optimizer_state_restarted": true,
+  "learning_rate": 0.005,
+  "beta1": 0.9,
+  "beta2": 0.999,
+  "epsilon": 1e-08,
+  "negative_phase": "exact enumeration of 65536 hidden configurations",
+  "reports": [
+    {
+      "step": 500,
+      "mean_nll": 8.92437744140625
+    },
+    {
+      "step": 1000,
+      "mean_nll": 8.2562255859375
+    },
+    {
+      "step": 1500,
+      "mean_nll": 7.75555419921875
+    },
+    {
+      "step": 2000,
+      "mean_nll": 7.377197265625
+    },
+    {
+      "step": 2500,
+      "mean_nll": 7.09381103515625
+    },
+    {
+      "step": 3000,
+      "mean_nll": 6.8597412109375
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "architecture": "binary RBM, 256 visible / 128 hidden",
+  "sampling_engine": "Torx DFG",
+  "training_method": "PCD-20",
+  "persistent_chains": 64,
+  "epochs": 200,
+  "batch_size": 32,
+  "learning_rate": 0.005,
+  "momentum": 0.5,
+  "weight_decay": 0.0001,
+  "seed": 49,
+  "augmentation": "none in this first experiment",
+  "split_manifest_sha256": "990ad712362d79e19210114a69dccf9e30f54deffdb713b507c20debead547c7",
+  "device": "cpu:0",
+  "elapsed_seconds": 106.4138419580413,
+  "reports": [
+    {
+      "epoch": 0,
+      "validation_reconstruction_bce": 0.6395279765129089
+    },
+    {
+      "epoch": 10,
+      "validation_reconstruction_bce": 0.5359424948692322
+    },
+    {
+      "epoch": 20,
+      "validation_reconstruction_bce": 0.47826242446899414
+    },
+    {
+      "epoch": 30,
+      "validation_reconstruction_bce": 0.4410516917705536
+    },
+    {
+      "epoch": 40,
+      "validation_reconstruction_bce": 0.41162845492362976
+    },
+    {
+      "epoch": 50,
+      "validation_reconstruction_bce": 0.3876722455024719
+    },
+    {
+      "epoch": 60,
+      "validation_reconstruction_bce": 0.3641502261161804
+    },
+    {
+      "epoch": 70,
+      "validation_reconstruction_bce": 0.3461175262928009
+    },
+    {
+      "epoch": 80,
+      "validation_reconstruction_bce": 0.32986003160476685
+    },
+    {
+      "epoch": 90,
+      "validation_reconstruction_bce": 0.3145168721675873
+    },
+    {
+      "epoch": 100,
+      "validation_reconstruction_bce": 0.3032347559928894
+    },
+    {
+      "epoch": 110,
+      "validation_reconstruction_bce": 0.2913379967212677
+    },
+    {
+      "epoch": 120,
+      "validation_reconstruction_bce": 0.28065580129623413
+    },
+    {
+      "epoch": 130,
+      "validation_reconstruction_bce": 0.27264028787612915
+    },
+    {
+      "epoch": 140,
+      "validation_reconstruction_bce": 0.2635308504104614
+    },
+    {
+      "epoch": 150,
+      "validation_reconstruction_bce": 0.2567503750324249
+    },
+    {
+      "epoch": 160,
+      "validation_reconstruction_bce": 0.250484436750412
+    },
+    {
+      "epoch": 170,
+      "validation_reconstruction_bce": 0.2445714771747589
+    },
+    {
+      "epoch": 180,
+      "validation_reconstruction_bce": 0.2395230382680893
+    },
+    {
+      "epoch": 190,
+      "validation_reconstruction_bce": 0.234310582280159
+    },
+    {
+      "epoch": 200,
+      "validation_reconstruction_bce": 0.23003242909908295
+    }
+  ]
+}

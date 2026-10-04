@@ -1,0 +1,9 @@
+{
+  "architecture": "binary RBM",
+  "visible_units": 256,
+  "hidden_units": 128,
+  "seed": 43,
+  "status": "initialized, not trained",
+  "training_patterns": 1654,
+  "split_manifest_sha256": "990ad712362d79e19210114a69dccf9e30f54deffdb713b507c20debead547c7"
+}

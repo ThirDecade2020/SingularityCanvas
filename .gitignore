@@ -1,0 +1,32 @@
+# Local environments and generated builds
+.venv/
+venv/
+node_modules/
+dist/
+.cache/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+.pytest_cache/
+.DS_Store
+._*
+
+# Local account records, exports, secrets, and backups
+*.sqlite*
+*.db
+*.db-*
+*.log
+.env
+.env.*
+!.env.example
+backups/
+*before_*
+*before-*
+*checkpoint*
+*.tar.gz
+singularity-canvas-account-*.json
+data/evaluation/
+
+# Editor state
+.idea/
+.vscode/

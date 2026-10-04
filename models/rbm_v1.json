@@ -1,0 +1,61 @@
+{
+  "architecture": "binary RBM, 256 visible / 128 hidden",
+  "sampling_engine": "Torx DFG",
+  "training_method": "CD-5",
+  "epochs": 100,
+  "batch_size": 32,
+  "learning_rate": 0.02,
+  "momentum": 0.5,
+  "weight_decay": 0.0001,
+  "seed": 45,
+  "augmentation": "none in this first experiment",
+  "split_manifest_sha256": "990ad712362d79e19210114a69dccf9e30f54deffdb713b507c20debead547c7",
+  "device": "cpu:0",
+  "elapsed_seconds": 9.692300833994523,
+  "reports": [
+    {
+      "epoch": 0,
+      "validation_reconstruction_bce": 0.6395279765129089
+    },
+    {
+      "epoch": 10,
+      "validation_reconstruction_bce": 0.41851377487182617
+    },
+    {
+      "epoch": 20,
+      "validation_reconstruction_bce": 0.3359934687614441
+    },
+    {
+      "epoch": 30,
+      "validation_reconstruction_bce": 0.2872457504272461
+    },
+    {
+      "epoch": 40,
+      "validation_reconstruction_bce": 0.2566923499107361
+    },
+    {
+      "epoch": 50,
+      "validation_reconstruction_bce": 0.23557065427303314
+    },
+    {
+      "epoch": 60,
+      "validation_reconstruction_bce": 0.22034725546836853
+    },
+    {
+      "epoch": 70,
+      "validation_reconstruction_bce": 0.20871028304100037
+    },
+    {
+      "epoch": 80,
+      "validation_reconstruction_bce": 0.1986396759748459
+    },
+    {
+      "epoch": 90,
+      "validation_reconstruction_bce": 0.19023673236370087
+    },
+    {
+      "epoch": 100,
+      "validation_reconstruction_bce": 0.18375667929649353
+    }
+  ]
+}
