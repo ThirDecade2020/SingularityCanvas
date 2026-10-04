@@ -10,7 +10,7 @@ Fix green and purple cells on a 16 × 16 grid, generate conditional samples, and
 
 ## Try the live demo
 
-**[Launch Singularity Canvas](https://berkeley-assets-years-nutten.trycloudflare.com)**
+**[Launch Singularity Canvas](https://reviews-native-above-commissioners.trycloudflare.com)**
 
 Temporary demo hosted on the founder's Mac, with a separate demo database. The link works while the Mac, app, and tunnel are running and changes when the tunnel restarts. A stable address is planned.
 
