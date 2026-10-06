@@ -8,13 +8,9 @@ Fix green and purple cells on a 16 × 16 grid, generate conditional samples, and
 
 > Current scope: a software demonstration using a model trained on 16 symbols. No physical thermodynamic chip is connected, and no speed or energy advantage has been established.
 
-## Try the live demo
+## Watch YouTube Demo
 
-**[Launch Singularity Canvas](https://reviews-native-above-commissioners.trycloudflare.com)**
-
-Temporary demo hosted on the founder's Mac, with a separate demo database. The link works while the Mac, app, and tunnel are running and changes when the tunnel restarts. A stable address is planned.
-
-Usernames are shared labels, not private accounts: anyone using the same name can view, resume, change, and export that workspace. Use demo information only.
+**[Launch Singularity Canvas](https://youtu.be/-TNI-HpHVfo?si=M73ukgJgSZhIJg5r)**
 
 ## Features
 
